@@ -74,7 +74,7 @@ export const ResultsView: React.FC<Props> = ({ leads, sources, isLoading, onBack
                 }`}
                 title={lead.isExistingClient ? "Unmark as Client" : "Mark as Client"}
               >
-                <Star className={`w-5 h-5 ${lead.isExistingClient ? 'fill-green-600' : ''}`} />
+                <CheckCircle2 className={`w-5 h-5 ${lead.isExistingClient ? 'fill-green-100' : ''}`} />
               </button>
             </div>
 
@@ -108,7 +108,7 @@ export const ResultsView: React.FC<Props> = ({ leads, sources, isLoading, onBack
 
               {lead.isExistingClient && (
                 <div className="flex items-center gap-2 text-green-600 text-[10px] font-bold uppercase bg-green-50 px-3 py-1.5 rounded-lg border border-green-100">
-                  <CheckCircle2 className="w-3 h-3" />
+                  <Star className="w-3 h-3" />
                   Confirmed Client
                 </div>
               )}
