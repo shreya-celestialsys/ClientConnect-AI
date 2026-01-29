@@ -1,0 +1,6 @@
+
+{
+  "name": "B2B ClientConnect AI",
+  "description": "An AI-powered B2B client prospecting tool that uses Google Search grounding to identify potential business partners based on your company profile and keywords.",
+  "requestFramePermissions": []
+}
