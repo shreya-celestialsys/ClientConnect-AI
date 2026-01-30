@@ -44,7 +44,7 @@ export async function findPotentialClients(
       model: "gemini-3-flash-preview",
       contents: prompt,
       config: {
-        // tools: [{ googleSearch: {} }],
+        // tools: [{ googleSearch: {} }],                      //Commented temporarily as free limit exceeded
         temperature: 0.7,
       },
     });
